@@ -1,0 +1,54 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: customer_intent
+    examples: |
+      - search
+      - find
+      - book
+      - lookup
+      - flight
+
+  - intent: flight_details
+    examples: |
+      - from [Amsterdam](departure) to [Vienna](arrival)
+      - from [Amsterdam](departure) to [Belgrade](arrival)
+  - lookup: departure
+    examples: |
+      - Amsterdam
+      - Vienna
+      - Belgrade
+  - lookup: arrival
+    examples: |
+      - Amsterdam
+      - Vienna
+      - Belgrade
+
+  - intent: goodbye
+    examples: |
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later

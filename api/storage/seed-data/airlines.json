@@ -1,0 +1,32 @@
+[
+    {
+        "code": "TK",
+        "name": "Turkish Airlines",
+        "image_path": "turkish-airlines.png",
+        "country_id": 227
+    },
+    {
+        "code": "EY",
+        "name": "Etihad",
+        "image_path": "etihad.png",
+        "country_id": 2
+    },
+    {
+        "code": "QR",
+        "name": "Qatar Airways",
+        "image_path": "qatar-airways.png",
+        "country_id": 189
+    },
+    {
+        "code": "JU",
+        "name": "Air Serbia",
+        "image_path": "air-serbia.png",
+        "country_id": 192
+    },
+    {
+        "code": "OS",
+        "name": "Austrian",
+        "image_path": "austrian.png",
+        "country_id": 13
+    }
+]

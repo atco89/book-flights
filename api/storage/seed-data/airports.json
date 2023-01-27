@@ -1,0 +1,292 @@
+[
+    {
+        "code": "AAR",
+        "name": "Aarhus Airport",
+        "city_id": 15
+    },
+    {
+        "code": "ZNZ",
+        "name": "Abeid Amani Karume International Airport",
+        "city_id": 45
+    },
+    {
+        "code": "ABZ",
+        "name": "Aberdeen International Airport",
+        "city_id": 24
+    },
+    {
+        "code": "ADA",
+        "name": "Adana Sakirpasa Airport",
+        "city_id": 40
+    },
+    {
+        "code": "ADD",
+        "name": "Addis Ababa Bole International Airport",
+        "city_id": 20
+    },
+    {
+        "code": "ADL",
+        "name": "Adelaide Airport",
+        "city_id": 9
+    },
+    {
+        "code": "MAD",
+        "name": "Adolfo Suarez Madrid-Barajas Airport",
+        "city_id": 17
+    },
+    {
+        "code": "AGA",
+        "name": "Agadir-Al Massira Airport",
+        "city_id": 29
+    },
+    {
+        "code": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city_id": 31
+    },
+    {
+        "code": "ESB",
+        "name": "Ankara Esenboga International Airport",
+        "city_id": 44
+    },
+    {
+        "code": "BCN",
+        "name": "Barcelona-El Prat Airport",
+        "city_id": 19
+    },
+    {
+        "code": "BEG",
+        "name": "Belgrade Nikola Tesla Airport",
+        "city_id": 33
+    },
+    {
+        "code": "BNE",
+        "name": "Brisbane Airport",
+        "city_id": 8
+    },
+    {
+        "code": "BME",
+        "name": "Broome International Airport",
+        "city_id": 7
+    },
+    {
+        "code": "CBR",
+        "name": "Canberra International Airport",
+        "city_id": 6
+    },
+    {
+        "code": "ORD",
+        "name": "Chicago O'Hare International Airport",
+        "city_id": 56
+    },
+    {
+        "code": "CPH",
+        "name": "Copenhagen Airport",
+        "city_id": 14
+    },
+    {
+        "code": "COO",
+        "name": "Cotonou Airport",
+        "city_id": 10
+    },
+    {
+        "code": "DFW",
+        "name": "Dallas/Fort Worth International Airport",
+        "city_id": 55
+    },
+    {
+        "code": "ATH",
+        "name": "Eleftherios Venizelos International Airport",
+        "city_id": 26
+    },
+    {
+        "code": "FLL",
+        "name": "Fort Lauderdale-Hollywood International Airport",
+        "city_id": 54
+    },
+    {
+        "code": "FRA",
+        "name": "Frankfurt Airport",
+        "city_id": 13
+    },
+    {
+        "code": "IAH",
+        "name": "George Bush Intercontinental Airport",
+        "city_id": 53
+    },
+    {
+        "code": "OOL",
+        "name": "Gold Coast Airport",
+        "city_id": 5
+    },
+    {
+        "code": "DOH",
+        "name": "Hamad International Airport",
+        "city_id": 32
+    },
+    {
+        "code": "HEL",
+        "name": "Helsinki-Vantaa Airport",
+        "city_id": 21
+    },
+    {
+        "code": "IST",
+        "name": "Istanbul Airport",
+        "city_id": 43
+    },
+    {
+        "code": "ADB",
+        "name": "Izmir Adnan Menderes International Airport",
+        "city_id": 42
+    },
+    {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport",
+        "city_id": 51
+    },
+    {
+        "code": "KRT",
+        "name": "Khartoum International Airport",
+        "city_id": 35
+    },
+    {
+        "code": "JRO",
+        "name": "Kilimanjaro International Airport",
+        "city_id": 46
+    },
+    {
+        "code": "ACC",
+        "name": "Kotoka International Airport",
+        "city_id": 25
+    },
+    {
+        "code": "STL",
+        "name": "Lambert-St. Louis International Airport",
+        "city_id": 47
+    },
+    {
+        "code": "ACE",
+        "name": "Lanzarote Airport",
+        "city_id": 18
+    },
+    {
+        "code": "FCO",
+        "name": "Leonardo da Vinci-Fiumicino Airport",
+        "city_id": 27
+    },
+    {
+        "code": "BOS",
+        "name": "Logan International Airport",
+        "city_id": 57
+    },
+    {
+        "code": "LGW",
+        "name": "London Gatwick Airport",
+        "city_id": 23
+    },
+    {
+        "code": "LHR",
+        "name": "London Heathrow Airport",
+        "city_id": 23
+    },
+    {
+        "code": "LLA",
+        "name": "Lulea Airport",
+        "city_id": 38
+    },
+    {
+        "code": "AGP",
+        "name": "Malaga Airport",
+        "city_id": 16
+    },
+    {
+        "code": "MAN",
+        "name": "Manchester Airport",
+        "city_id": 22
+    },
+    {
+        "code": "MEL",
+        "name": "Melbourne Airport",
+        "city_id": 4
+    },
+    {
+        "code": "MIA",
+        "name": "Miami International Airport",
+        "city_id": 52
+    },
+    {
+        "code": "CMN",
+        "name": "Mohammed V International Airport",
+        "city_id": 28
+    },
+    {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport",
+        "city_id": 50
+    },
+    {
+        "code": "ABV",
+        "name": "Nnamdi Azikiwe International Airport",
+        "city_id": 30
+    },
+    {
+        "code": "ORF",
+        "name": "Norfolk International Airport",
+        "city_id": 49
+    },
+    {
+        "code": "PER",
+        "name": "Perth Airport",
+        "city_id": 3
+    },
+    {
+        "code": "ABJ",
+        "name": "Port Bouet Airport",
+        "city_id": 12
+    },
+    {
+        "code": "RDU",
+        "name": "Raleigh-Durham International Airport",
+        "city_id": 48
+    },
+    {
+        "code": "SAW",
+        "name": "Sabiha Goekcen International Airport",
+        "city_id": 41
+    },
+    {
+        "code": "SEZ",
+        "name": "Seychelles International Airport",
+        "city_id": 34
+    },
+    {
+        "code": "NKT",
+        "name": "Sirnak Airport",
+        "city_id": 39
+    },
+    {
+        "code": "ARN",
+        "name": "Stockholm Arlanda Airport",
+        "city_id": 37
+    },
+    {
+        "code": "SYD",
+        "name": "Sydney International Airport",
+        "city_id": 2
+    },
+    {
+        "code": "YYZ",
+        "name": "Toronto Pearson International Airport",
+        "city_id": 11
+    },
+    {
+        "code": "UME",
+        "name": "Umea Airport",
+        "city_id": 36
+    },
+    {
+        "code": "VIE",
+        "name": "Vienna International Airport",
+        "city_id": 1
+    }
+]

@@ -1,0 +1,4 @@
+/.idea/
+/docker/web/certs
+/docker/database/backup
+/rasa/models/

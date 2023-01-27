@@ -1,0 +1,73 @@
+version: "3"
+
+services:
+  webserver:
+    container_name: webserver
+    restart: unless-stopped
+    build:
+      context: ./../
+      dockerfile: ./docker/web/Dockerfile
+    volumes:
+      - ./../api:/var/www/html
+    ports:
+      - "8888:80"
+    depends_on:
+      - database
+    links:
+      - database
+  database:
+    container_name: database
+    restart: unless-stopped
+    image: mysql:latest
+    volumes:
+      - ./database/scripts:/docker-entrypoint-initdb.d
+      - ./database/backup:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: flights
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - "6603:3306"
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-p password" ]
+      retries: 3
+      timeout: 5s
+  rasa:
+    container_name: rasa
+    restart: unless-stopped
+    image: rasa/rasa:latest-full
+    volumes:
+      - ./../rasa:/app
+    ports:
+      - "5005:5005"
+      - "5010:5010"
+    command:
+      - run
+      - --enable-api
+    depends_on:
+      - webserver
+    links:
+      - webserver
+  rasa-sdk:
+    container_name: rasa-sdk
+    restart: unless-stopped
+    image: rasa/rasa-sdk:latest
+    ports:
+      - "5055:5055"
+    volumes:
+      - ./../rasa/actions:/app/actions
+    depends_on:
+      - rasa
+    links:
+      - rasa
+  rasa-duckling:
+    container_name: rasa-duckling
+    restart: unless-stopped
+    image: rasa/duckling:latest
+    ports:
+      - "8000:8000"
+    depends_on:
+      - rasa
+      - rasa-sdk
+    links:
+      - rasa
+      - rasa-sdk

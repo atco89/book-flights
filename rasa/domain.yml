@@ -1,0 +1,28 @@
+version: "3.1"
+
+intents:
+  - greet
+  - customer_intent
+  - flight_details
+  - goodbye
+
+entities:
+  - departure
+  - arrival
+
+responses:
+  utter_greet:
+    - text: "Hi, how can I help you?"
+  utter_flight_details:
+    - text: "Give me details about your flight"
+  utter_not_trained:
+    - text: "Sorry, I’m trained to give you information only about flights. Do you have any questions related?"
+  utter_goodbye:
+    - text: "Have a nice day!"
+
+actions:
+  - action_search_flights
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

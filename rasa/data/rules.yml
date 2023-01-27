@@ -1,0 +1,12 @@
+version: "3.1"
+
+rules:
+  - rule: Say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Search flights
+    steps:
+      - intent: flight_details
+      - action: action_search_flights

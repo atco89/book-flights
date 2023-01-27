@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Upcoming",
+        "finished": false,
+        "review": false,
+        "edit": true
+    },
+    {
+        "name": "Done",
+        "finished": true,
+        "review": true,
+        "edit": false
+    },
+    {
+        "name": "Cancelled",
+        "finished": true,
+        "review": false,
+        "edit": false
+    }
+]

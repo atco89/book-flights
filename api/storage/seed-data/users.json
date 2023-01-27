@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Aleksandar",
+        "surname": "Rakić",
+        "birth_date": "1989-06-29",
+        "passport_number": "012345678",
+        "phone": "+381692209219",
+        "email": "aleksandar.rakic@yahoo.com",
+        "password": "$2a$12$cW850PlRpdRU2uJAuXGbJOqYY08.z7iBHcM9SWM8zBRivNMSH5ctK",
+        "activation_code": "981918f8-e96f-4b4f-b19d-27276919f4fc",
+        "active": true
+    }
+]

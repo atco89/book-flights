@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-arrival",
+      "2": "I-arrival",
+      "3": "L-arrival",
+      "4": "U-arrival",
+      "5": "B-departure",
+      "6": "I-departure",
+      "7": "L-departure",
+      "8": "U-departure",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-arrival": 1,
+      "I-arrival": 2,
+      "L-arrival": 3,
+      "U-arrival": 4,
+      "B-departure": 5,
+      "I-departure": 6,
+      "L-departure": 7,
+      "U-departure": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

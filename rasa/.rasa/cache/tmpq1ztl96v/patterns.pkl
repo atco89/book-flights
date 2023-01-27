@@ -1,0 +1,10 @@
+[
+  {
+    "name": "departure",
+    "pattern": "(\\bamsterdam\\b|\\bvienna\\b)"
+  },
+  {
+    "name": "arrival",
+    "pattern": "(\\bamsterdam\\b|\\bvienna\\b)"
+  }
+]

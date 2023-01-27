@@ -1,0 +1,12 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAViXnF5amJRbW1sQBMnU9F": "utter_departure_airport",
+    "eJydjsEJwzAQBFtRAa5ArQQjjmQJgvgsVqfkIdx7BDJ+GWT824VhmEfdJlcT8Q3ytLiqd7WPoLLAu/18YjZoY0sGGxO1XfPuTcC2gaOYgaGj9wyDCtH8g/BaxwtJaIUIEplWnjQdvvkP7m9uRg==": "action_listen",
+    "eJydjkEKwzAMBL/iB+QF/koIRrRLMaSKWcvpwfjvMaS3Fhxy08Iwmrm2ydVE7EEeFjf1rp5HUHnDu+9YYzZoZ0sGOxO1T/PuRcDawFHMwHCi9wyDCtH8gfBaxxNJaIUIEpk2/mm66BtU/T5qywEusY0v": "action_departure",
+    "eJydjlEKwyAQRK/iAXICrxKCLO1QhHQj45p+SO4eIaU/LSj924GZt2+ux+RqIvYgN4ubelevI6g84d07rDEbtHVLBlsnaovm3YOAHR1GMQPDVf2P0LEQzS8IxzzuSEIrRJDItPGH0yCvY/X9aIz32Q0hlxMhbK1V": "utter_goodbye",
+    "eJytkNEJwzAMRFfxAJ3Aq4Ri1OQohlY2spwQTHavISE/LdiU/Ong9PTQULabKVEwOxrVB7am7INjesOaI7x8UnDt5gSpHc81qjVPAXRrMLIqxO3V/wgNC+K0gKTPY0Ik0Sxw5CUG+eHUyWtYfR/q4517FyCP14cwPdY+3v0DGzvMTg==": "action_listen"
+  }
+}

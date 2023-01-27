@@ -1,0 +1,1394 @@
+[
+    {
+        "flight_id": 1,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 225.000
+    },
+    {
+        "flight_id": 2,
+        "travel_class_id": 1,
+        "capacity": 234,
+        "price": 217.500
+    },
+    {
+        "flight_id": 3,
+        "travel_class_id": 1,
+        "capacity": 234,
+        "price": 217.500
+    },
+    {
+        "flight_id": 4,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 225.000
+    },
+    {
+        "flight_id": 5,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 120.000
+    },
+    {
+        "flight_id": 6,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 120.000
+    },
+    {
+        "flight_id": 7,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 120.000
+    },
+    {
+        "flight_id": 8,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 120.000
+    },
+    {
+        "flight_id": 9,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 120.000
+    },
+    {
+        "flight_id": 10,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 120.000
+    },
+    {
+        "flight_id": 11,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 120.000
+    },
+    {
+        "flight_id": 12,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 120.000
+    },
+    {
+        "flight_id": 13,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 120.000
+    },
+    {
+        "flight_id": 14,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 120.000
+    },
+    {
+        "flight_id": 15,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 120.000
+    },
+    {
+        "flight_id": 16,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 210.000
+    },
+    {
+        "flight_id": 17,
+        "travel_class_id": 1,
+        "capacity": 234,
+        "price": 315.000
+    },
+    {
+        "flight_id": 18,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 315.000
+    },
+    {
+        "flight_id": 19,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 300.000
+    },
+    {
+        "flight_id": 20,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 172.500
+    },
+    {
+        "flight_id": 21,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 172.500
+    },
+    {
+        "flight_id": 22,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 247.500
+    },
+    {
+        "flight_id": 23,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 165.000
+    },
+    {
+        "flight_id": 24,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 210.000
+    },
+    {
+        "flight_id": 25,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 165.000
+    },
+    {
+        "flight_id": 26,
+        "travel_class_id": 1,
+        "capacity": 198,
+        "price": 142.500
+    },
+    {
+        "flight_id": 27,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 382.500
+    },
+    {
+        "flight_id": 28,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 97.500
+    },
+    {
+        "flight_id": 29,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 180.000
+    },
+    {
+        "flight_id": 30,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 105.000
+    },
+    {
+        "flight_id": 31,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 150.000
+    },
+    {
+        "flight_id": 32,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 157.500
+    },
+    {
+        "flight_id": 33,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 142.500
+    },
+    {
+        "flight_id": 34,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 142.500
+    },
+    {
+        "flight_id": 35,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 150.000
+    },
+    {
+        "flight_id": 36,
+        "travel_class_id": 1,
+        "capacity": 198,
+        "price": 150.000
+    },
+    {
+        "flight_id": 37,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 142.500
+    },
+    {
+        "flight_id": 38,
+        "travel_class_id": 1,
+        "capacity": 198,
+        "price": 112.500
+    },
+    {
+        "flight_id": 39,
+        "travel_class_id": 1,
+        "capacity": 198,
+        "price": 105.000
+    },
+    {
+        "flight_id": 40,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 112.500
+    },
+    {
+        "flight_id": 41,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 112.500
+    },
+    {
+        "flight_id": 42,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 112.500
+    },
+    {
+        "flight_id": 43,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 120.000
+    },
+    {
+        "flight_id": 44,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 120.000
+    },
+    {
+        "flight_id": 45,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 105.000
+    },
+    {
+        "flight_id": 46,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 202.500
+    },
+    {
+        "flight_id": 47,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 202.500
+    },
+    {
+        "flight_id": 48,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 217.500
+    },
+    {
+        "flight_id": 49,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 112.500
+    },
+    {
+        "flight_id": 50,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 225.000
+    },
+    {
+        "flight_id": 51,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 232.500
+    },
+    {
+        "flight_id": 52,
+        "travel_class_id": 1,
+        "capacity": 198,
+        "price": 165.000
+    },
+    {
+        "flight_id": 53,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 345.000
+    },
+    {
+        "flight_id": 54,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 240.000
+    },
+    {
+        "flight_id": 55,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 262.500
+    },
+    {
+        "flight_id": 56,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 757.500
+    },
+    {
+        "flight_id": 57,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 952.500
+    },
+    {
+        "flight_id": 58,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 802.500
+    },
+    {
+        "flight_id": 59,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 165.000
+    },
+    {
+        "flight_id": 60,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 165.000
+    },
+    {
+        "flight_id": 61,
+        "travel_class_id": 1,
+        "capacity": 234,
+        "price": 165.000
+    },
+    {
+        "flight_id": 62,
+        "travel_class_id": 1,
+        "capacity": 234,
+        "price": 727.500
+    },
+    {
+        "flight_id": 63,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 90.000
+    },
+    {
+        "flight_id": 64,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 90.000
+    },
+    {
+        "flight_id": 65,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 120.000
+    },
+    {
+        "flight_id": 66,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 112.500
+    },
+    {
+        "flight_id": 67,
+        "travel_class_id": 1,
+        "capacity": 198,
+        "price": 97.500
+    },
+    {
+        "flight_id": 68,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 202.500
+    },
+    {
+        "flight_id": 69,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 202.500
+    },
+    {
+        "flight_id": 70,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 202.500
+    },
+    {
+        "flight_id": 71,
+        "travel_class_id": 1,
+        "capacity": 234,
+        "price": 1068.000
+    },
+    {
+        "flight_id": 72,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 105.000
+    },
+    {
+        "flight_id": 73,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 162.000
+    },
+    {
+        "flight_id": 74,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 162.000
+    },
+    {
+        "flight_id": 75,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 183.000
+    },
+    {
+        "flight_id": 76,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 187.500
+    },
+    {
+        "flight_id": 77,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 570.000
+    },
+    {
+        "flight_id": 78,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 165.000
+    },
+    {
+        "flight_id": 79,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 90.000
+    },
+    {
+        "flight_id": 80,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 690.000
+    },
+    {
+        "flight_id": 81,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 270.000
+    },
+    {
+        "flight_id": 82,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 360.000
+    },
+    {
+        "flight_id": 83,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 232.500
+    },
+    {
+        "flight_id": 84,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 99.000
+    },
+    {
+        "flight_id": 85,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 390.000
+    },
+    {
+        "flight_id": 86,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 375.000
+    },
+    {
+        "flight_id": 87,
+        "travel_class_id": 1,
+        "capacity": 234,
+        "price": 1230.000
+    },
+    {
+        "flight_id": 88,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 142.500
+    },
+    {
+        "flight_id": 89,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 142.500
+    },
+    {
+        "flight_id": 90,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 150.000
+    },
+    {
+        "flight_id": 91,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 142.500
+    },
+    {
+        "flight_id": 92,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 232.500
+    },
+    {
+        "flight_id": 93,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 442.500
+    },
+    {
+        "flight_id": 94,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 660.000
+    },
+    {
+        "flight_id": 95,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 1177.500
+    },
+    {
+        "flight_id": 96,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 60.000
+    },
+    {
+        "flight_id": 97,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 637.500
+    },
+    {
+        "flight_id": 98,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 592.500
+    },
+    {
+        "flight_id": 99,
+        "travel_class_id": 1,
+        "capacity": 198,
+        "price": 615.000
+    },
+    {
+        "flight_id": 100,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 90.000
+    },
+    {
+        "flight_id": 101,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 90.000
+    },
+    {
+        "flight_id": 102,
+        "travel_class_id": 1,
+        "capacity": 198,
+        "price": 150.000
+    },
+    {
+        "flight_id": 103,
+        "travel_class_id": 1,
+        "capacity": 160,
+        "price": 157.500
+    },
+    {
+        "flight_id": 104,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 142.500
+    },
+    {
+        "flight_id": 105,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 142.500
+    },
+    {
+        "flight_id": 106,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 142.500
+    },
+    {
+        "flight_id": 107,
+        "travel_class_id": 1,
+        "capacity": 225,
+        "price": 150.000
+    },
+    {
+        "flight_id": 108,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 150.000
+    },
+    {
+        "flight_id": 109,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 142.500
+    },
+    {
+        "flight_id": 110,
+        "travel_class_id": 1,
+        "capacity": 369,
+        "price": 127.500
+    },
+    {
+        "flight_id": 111,
+        "travel_class_id": 1,
+        "capacity": 266,
+        "price": 127.500
+    },
+    {
+        "flight_id": 112,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 127.500
+    },
+    {
+        "flight_id": 113,
+        "travel_class_id": 1,
+        "capacity": 145,
+        "price": 112.500
+    },
+    {
+        "flight_id": 114,
+        "travel_class_id": 1,
+        "capacity": 153,
+        "price": 105.000
+    },
+    {
+        "flight_id": 115,
+        "travel_class_id": 1,
+        "capacity": 458,
+        "price": 112.500
+    },
+    {
+        "flight_id": 116,
+        "travel_class_id": 1,
+        "capacity": 128,
+        "price": 645.000
+    },
+    {
+        "flight_id": 1,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 393.750
+    },
+    {
+        "flight_id": 2,
+        "travel_class_id": 2,
+        "capacity": 26,
+        "price": 380.625
+    },
+    {
+        "flight_id": 3,
+        "travel_class_id": 2,
+        "capacity": 26,
+        "price": 380.625
+    },
+    {
+        "flight_id": 4,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 393.750
+    },
+    {
+        "flight_id": 5,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 210.000
+    },
+    {
+        "flight_id": 6,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 210.000
+    },
+    {
+        "flight_id": 7,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 210.000
+    },
+    {
+        "flight_id": 8,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 210.000
+    },
+    {
+        "flight_id": 9,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 210.000
+    },
+    {
+        "flight_id": 10,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 210.000
+    },
+    {
+        "flight_id": 11,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 210.000
+    },
+    {
+        "flight_id": 12,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 210.000
+    },
+    {
+        "flight_id": 13,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 210.000
+    },
+    {
+        "flight_id": 14,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 210.000
+    },
+    {
+        "flight_id": 15,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 210.000
+    },
+    {
+        "flight_id": 16,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 367.500
+    },
+    {
+        "flight_id": 17,
+        "travel_class_id": 2,
+        "capacity": 26,
+        "price": 551.250
+    },
+    {
+        "flight_id": 18,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 551.250
+    },
+    {
+        "flight_id": 19,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 525.000
+    },
+    {
+        "flight_id": 20,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 301.875
+    },
+    {
+        "flight_id": 21,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 301.875
+    },
+    {
+        "flight_id": 22,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 433.125
+    },
+    {
+        "flight_id": 23,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 288.750
+    },
+    {
+        "flight_id": 24,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 367.500
+    },
+    {
+        "flight_id": 25,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 288.750
+    },
+    {
+        "flight_id": 26,
+        "travel_class_id": 2,
+        "capacity": 22,
+        "price": 249.375
+    },
+    {
+        "flight_id": 27,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 669.375
+    },
+    {
+        "flight_id": 28,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 170.625
+    },
+    {
+        "flight_id": 29,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 315.000
+    },
+    {
+        "flight_id": 30,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 183.750
+    },
+    {
+        "flight_id": 31,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 262.500
+    },
+    {
+        "flight_id": 32,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 275.625
+    },
+    {
+        "flight_id": 33,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 249.375
+    },
+    {
+        "flight_id": 34,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 249.375
+    },
+    {
+        "flight_id": 35,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 262.500
+    },
+    {
+        "flight_id": 36,
+        "travel_class_id": 2,
+        "capacity": 22,
+        "price": 262.500
+    },
+    {
+        "flight_id": 37,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 249.375
+    },
+    {
+        "flight_id": 38,
+        "travel_class_id": 2,
+        "capacity": 22,
+        "price": 196.875
+    },
+    {
+        "flight_id": 39,
+        "travel_class_id": 2,
+        "capacity": 22,
+        "price": 183.750
+    },
+    {
+        "flight_id": 40,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 196.875
+    },
+    {
+        "flight_id": 41,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 196.875
+    },
+    {
+        "flight_id": 42,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 196.875
+    },
+    {
+        "flight_id": 43,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 210.000
+    },
+    {
+        "flight_id": 44,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 210.000
+    },
+    {
+        "flight_id": 45,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 183.750
+    },
+    {
+        "flight_id": 46,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 354.375
+    },
+    {
+        "flight_id": 47,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 354.375
+    },
+    {
+        "flight_id": 48,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 380.625
+    },
+    {
+        "flight_id": 49,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 196.875
+    },
+    {
+        "flight_id": 50,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 393.750
+    },
+    {
+        "flight_id": 51,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 406.875
+    },
+    {
+        "flight_id": 52,
+        "travel_class_id": 2,
+        "capacity": 22,
+        "price": 288.750
+    },
+    {
+        "flight_id": 53,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 603.750
+    },
+    {
+        "flight_id": 54,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 420.000
+    },
+    {
+        "flight_id": 55,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 459.375
+    },
+    {
+        "flight_id": 56,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 1325.625
+    },
+    {
+        "flight_id": 57,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 1666.875
+    },
+    {
+        "flight_id": 58,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 1404.375
+    },
+    {
+        "flight_id": 59,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 288.750
+    },
+    {
+        "flight_id": 60,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 288.750
+    },
+    {
+        "flight_id": 61,
+        "travel_class_id": 2,
+        "capacity": 26,
+        "price": 288.750
+    },
+    {
+        "flight_id": 62,
+        "travel_class_id": 2,
+        "capacity": 26,
+        "price": 1273.125
+    },
+    {
+        "flight_id": 63,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 157.500
+    },
+    {
+        "flight_id": 64,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 157.500
+    },
+    {
+        "flight_id": 65,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 210.000
+    },
+    {
+        "flight_id": 66,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 196.875
+    },
+    {
+        "flight_id": 67,
+        "travel_class_id": 2,
+        "capacity": 22,
+        "price": 170.625
+    },
+    {
+        "flight_id": 68,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 354.375
+    },
+    {
+        "flight_id": 69,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 354.375
+    },
+    {
+        "flight_id": 70,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 354.375
+    },
+    {
+        "flight_id": 71,
+        "travel_class_id": 2,
+        "capacity": 26,
+        "price": 1869.000
+    },
+    {
+        "flight_id": 72,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 183.750
+    },
+    {
+        "flight_id": 73,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 283.500
+    },
+    {
+        "flight_id": 74,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 283.500
+    },
+    {
+        "flight_id": 75,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 320.250
+    },
+    {
+        "flight_id": 76,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 328.125
+    },
+    {
+        "flight_id": 77,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 997.500
+    },
+    {
+        "flight_id": 78,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 288.750
+    },
+    {
+        "flight_id": 79,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 157.500
+    },
+    {
+        "flight_id": 80,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 1207.500
+    },
+    {
+        "flight_id": 81,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 472.500
+    },
+    {
+        "flight_id": 82,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 630.000
+    },
+    {
+        "flight_id": 83,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 406.875
+    },
+    {
+        "flight_id": 84,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 173.250
+    },
+    {
+        "flight_id": 85,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 682.500
+    },
+    {
+        "flight_id": 86,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 656.250
+    },
+    {
+        "flight_id": 87,
+        "travel_class_id": 2,
+        "capacity": 26,
+        "price": 2152.500
+    },
+    {
+        "flight_id": 88,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 249.375
+    },
+    {
+        "flight_id": 89,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 249.375
+    },
+    {
+        "flight_id": 90,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 262.500
+    },
+    {
+        "flight_id": 91,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 249.375
+    },
+    {
+        "flight_id": 92,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 406.875
+    },
+    {
+        "flight_id": 93,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 774.375
+    },
+    {
+        "flight_id": 94,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 1155.000
+    },
+    {
+        "flight_id": 95,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 2060.625
+    },
+    {
+        "flight_id": 96,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 105.000
+    },
+    {
+        "flight_id": 97,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 1115.625
+    },
+    {
+        "flight_id": 98,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 1036.875
+    },
+    {
+        "flight_id": 99,
+        "travel_class_id": 2,
+        "capacity": 22,
+        "price": 1076.250
+    },
+    {
+        "flight_id": 100,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 157.500
+    },
+    {
+        "flight_id": 101,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 157.500
+    },
+    {
+        "flight_id": 102,
+        "travel_class_id": 2,
+        "capacity": 22,
+        "price": 262.500
+    },
+    {
+        "flight_id": 103,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 275.625
+    },
+    {
+        "flight_id": 104,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 249.375
+    },
+    {
+        "flight_id": 105,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 249.375
+    },
+    {
+        "flight_id": 106,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 249.375
+    },
+    {
+        "flight_id": 107,
+        "travel_class_id": 2,
+        "capacity": 25,
+        "price": 262.500
+    },
+    {
+        "flight_id": 108,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 262.500
+    },
+    {
+        "flight_id": 109,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 249.375
+    },
+    {
+        "flight_id": 110,
+        "travel_class_id": 2,
+        "capacity": 41,
+        "price": 223.125
+    },
+    {
+        "flight_id": 111,
+        "travel_class_id": 2,
+        "capacity": 29,
+        "price": 223.125
+    },
+    {
+        "flight_id": 112,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 223.125
+    },
+    {
+        "flight_id": 113,
+        "travel_class_id": 2,
+        "capacity": 16,
+        "price": 196.875
+    },
+    {
+        "flight_id": 114,
+        "travel_class_id": 2,
+        "capacity": 17,
+        "price": 183.750
+    },
+    {
+        "flight_id": 115,
+        "travel_class_id": 2,
+        "capacity": 50,
+        "price": 196.875
+    },
+    {
+        "flight_id": 116,
+        "travel_class_id": 2,
+        "capacity": 14,
+        "price": 1128.750
+    }
+]

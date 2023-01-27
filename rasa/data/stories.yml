@@ -1,0 +1,13 @@
+version: "3.1"
+
+stories:
+  - story: STORY I
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: customer_intent
+      - action: utter_flight_details
+      - intent: flight_details
+      - action: action_search_flights
+      - intent: goodbye
+      - action: utter_goodbye

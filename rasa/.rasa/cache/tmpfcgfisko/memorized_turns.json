@@ -1,0 +1,15 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAViXnF5amJRbW1sQBMnU9F": "utter_departure_airport",
+    "eJydjsEJwzAQBFtRAa5ArQQjjmQJgvgsVqfkIdx7BDJ+GWT824VhmEfdJlcT8Q3ytLiqd7WPoLLAu/18YjZoY0sGGxO1XfPuTcC2gaOYgaGj9wyDCtH8g/BaxwtJaIUIEplWnjQdvvkP7m9uRg==": "action_listen",
+    "eJydjkEKwzAMBL/iB+QF/koIRrRLMaSKWcvpwfjvMaS3Fhxy08Iwmrm2ydVE7EEeFjf1rp5HUHnDu+9YYzZoZ0sGOxO1T/PuRcDawFHMwHCi9wyDCtH8gfBaxxNJaIUIEpk2/mm66BtU/T5qywEusY0v": "utter_arrival_airport",
+    "eJydjkEKwzAMBL/iB/QF/kopRrRLMKSKWcvJweTvNaS3Jtj0poVhNPe631xNxBrkaXFR7+pxBJU3vPuOOWaDNrZksDFR2zTvJgK2dxzFDAwH+p+hUyGaNwjHOl5IQitEkMi08KRp0Nep+n001CdkXGW+rjvxPj6Xt6+Q": "action_listen",
+    "eJydkEsKAjEQRK+SA3iCXEUkNFpIw5gJlc64CLm7gXHlh0R3XVC8evSxtoOridiCnE3X6F3djxDlBu+eYdFsiL1bMtg7Gns0764ErA0YxQwMe/U/wsBCYr5DOOdxQRJaIYIo08oPTpO8gdX70JSfkLrJ8t3uZ+7oey+D7fQAo9/Nng==": "action_search_flights",
+    "eJydkFEKwjAQRK+SA3iCXKVIWOq2XYhpmGzqR+jdDdSvqiT6twPDm8cOZb+YEsGbo1FlDdaU43CB7mzNK3hJyqF2c2LUjoQa1ZoZzLo3GFmV4Y7qf4SGBYX0YEKfx40jQTPYkSCu+ODUyWtYvQ91+REgG/nvdj9zW987DfbRUn3QuLjJy7xo6qBen0ha7uM=": "action_listen",
+    "eJytklEKwjAMhq/SA3iCXkWkZFvcArUtaTqR0rtbmE+60Sq+5YefLx8h51xOKgfG1cAo5J1WeRuMgxtq9QqWoqCr3RSRa4dcjaLVzIhSGowkgmy26m+EhgW4eEfgPo8JA7AkRgPEwfOOUyevYfW5qMsPmGkFe2z3Nbd1vbeFfbRYDzQu5mppXiT+i3r4Z95PwwNLuTwBRZcJmA==": "utter_goodbye",
+    "eJytklEKwjAMhq/SA3iCXkWkxC1ugdqWNJ1I2d0tbE/T0iq+JfDz5SP857yeVA6Mi4FByDut8jYYB3fUal8sRUFXsikilwy5sopWEyPK2mAkEWSzRX8jNCzAxQcC93mMGIAlMRogDp4/OHXyGlbvh7r8gJkWsHW7r7mt7x0O9tFiedAwm5ulaZb4L2q1Z96P1yd2Nm0P1ymXF4/BJE4=": "action_listen"
+  }
+}

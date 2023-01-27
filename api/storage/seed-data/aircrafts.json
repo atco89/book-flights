@@ -1,0 +1,52 @@
+[
+    {
+        "model": "A380",
+        "manufacturer": "Airbus",
+        "capacity": 509
+    },
+    {
+        "model": "A320",
+        "manufacturer": "Airbus",
+        "capacity": 170
+    },
+    {
+        "model": "A350",
+        "manufacturer": "Airbus",
+        "capacity": 410
+    },
+    {
+        "model": "A330",
+        "manufacturer": "Airbus",
+        "capacity": 260
+    },
+    {
+        "model": "A321",
+        "manufacturer": "Airbus",
+        "capacity": 220
+    },
+    {
+        "model": "787-9",
+        "manufacturer": "Boeing",
+        "capacity": 296
+    },
+    {
+        "model": "737 MAX 8",
+        "manufacturer": "Boeing",
+        "capacity": 178
+    },
+    {
+        "model": "777-300ER",
+        "manufacturer": "Boeing",
+        "capacity": 250
+    },
+    {
+        "model": "737-700",
+        "manufacturer": "Boeing",
+        "capacity": 143
+    },
+    {
+        "model": "737-800",
+        "manufacturer": "Boeing",
+        "capacity": 162
+    }
+]
