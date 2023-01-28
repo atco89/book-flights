@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Services\UserService;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 use Throwable;
 
 class EmailVerificationController extends Controller
@@ -22,13 +22,13 @@ class EmailVerificationController extends Controller
 
     /**
      * @param EmailVerificationRequest $request
-     * @return Response
+     * @return RedirectResponse
      * @throws Throwable
      * @noinspection PhpUndefinedFieldInspection
      */
-    public function __invoke(Request $request): Response
+    public function __invoke(Request $request): RedirectResponse
     {
         $this->userService->verifyEmail($request->activationCode);
-        return response()->noContent(200);
+        return response()->redirectTo('http://localhost:4200/account-activation');
     }
 }

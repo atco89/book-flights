@@ -1,70 +1,92 @@
-<div class="container">
-  <div class="row">
-    <div class="col-6 offset-3">
-      <div class="card mt-5">
-        <div class="card-header bg-primary text-white">
-          <h2 class="m-0">Sign Up</h2>
-        </div>
-        <div class="card-body">
-          <form #form="ngForm" (ngSubmit)="onSubmit(form.value)">
-            <div class="mb-3">
-              <label for="name" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Name:
-                </strong>
-              </label>
-              <input type="text" class="form-control" id="name" name="name" ngModel>
+<div class="content-section">
+  <div class="review-flight py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+          <div class="theme-box-shadow theme-border-radius theme-bg-white p-3">
+            <div class="d-flex align-items-center mb-3">
+              <div class="flex-shrink-0">
+                <div class="theme-bg-primary p-3 rounded-circle">
+                  <i class="bi bi-person-plus lh-1 fs-4"></i>
+                </div>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <span class="fs-4 fw-bold">Create Flight World Account</span>
+                <p class="font-medium mb-0 theme-text-accent-one">
+                  For security, please sign in to access your information
+                </p>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="surname" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Surname:
-                </strong>
-              </label>
-              <input type="text" class="form-control" id="surname" name="surname" ngModel>
+            <div class="col-12">
+              <form [formGroup]="form" (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
+                <div class="form-floating mb-3">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['name'].errors}"
+                         class="form-control" formControlName="name" id="name"
+                         placeholder="Name"
+                         type="text"
+                         ngModel>
+                  <label for="name">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['surname'].errors}"
+                         class="form-control" formControlName="surname" id="surname"
+                         placeholder="Surname"
+                         type="text"
+                         ngModel>
+                  <label for="surname">Surname</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['birth_date'].errors}"
+                         class="form-control" formControlName="birth_date" id="birth-date"
+                         placeholder="Birth date"
+                         type="text"
+                         ngModel>
+                  <label for="birth-date">Birth date</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['passport_number'].errors}"
+                         class="form-control" formControlName="passport_number" id="passport-number"
+                         placeholder="Passport number"
+                         type="text"
+                         ngModel>
+                  <label for="passport-number">Passport number</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['phone'].errors}"
+                         class="form-control" formControlName="phone" id="phone-number"
+                         placeholder="Phone number"
+                         type="text"
+                         ngModel>
+                  <label for="phone-number">Phone number</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['email'].errors}"
+                         class="form-control" formControlName="email" id="email"
+                         placeholder="Email"
+                         type="email"
+                         ngModel>
+                  <label for="email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['password'].errors}"
+                         class="form-control" formControlName="password" id="password"
+                         placeholder="Password"
+                         type="password"
+                         ngModel>
+                  <label for="password">Password</label>
+                </div>
+                <div class="mb-3">
+                  <button class="btn btn-primary btn-book px-5 min-h58" type="submit">
+                    Register
+                  </button>
+                  <span class="font-medium">
+                      <span class="mx-3">Already a member?</span>
+                      <a routerLink="/sign-in" title="Login">Login</a>
+                  </span>
+                </div>
+              </form>
             </div>
-            <div class="mb-3">
-              <label for="birth_date" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Birth date:
-                </strong>
-              </label>
-              <input type="date" class="form-control" id="birth_date" name="birth_date" ngModel>
-            </div>
-            <div class="mb-3">
-              <label for="passport_number" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Passport number:
-                </strong>
-              </label>
-              <input type="text" class="form-control" id="passport_number" name="passport_number" ngModel>
-            </div>
-            <div class="mb-3">
-              <label for="phone" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Phone:
-                </strong>
-              </label>
-              <input type="text" class="form-control" id="phone" name="phone" ngModel>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Email:
-                </strong>
-              </label>
-              <input type="email" class="form-control" id="email" name="email" ngModel>
-            </div>
-            <div class="mb-3">
-              <label for="password" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Password:
-                </strong>
-              </label>
-              <input type="password" class="form-control" id="password" name="password" ngModel>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>

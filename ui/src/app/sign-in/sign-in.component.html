@@ -1,30 +1,52 @@
-<div class="container">
-  <div class="row">
-    <div class="col-6 offset-3">
-      <div class="card mt-5">
-        <div class="card-header bg-primary text-white">
-          <h2 class="m-0">Sign In</h2>
-        </div>
-        <div class="card-body">
-          <form action="">
-            <div class="mb-3">
-              <label for="email" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Email:
-                </strong>
-              </label>
-              <input type="email" class="form-control" id="email" name="email">
+<div class="content-section">
+  <div class="review-flight my-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-md-3">
+          <div class="theme-box-shadow theme-border-radius theme-bg-white p-3">
+            <div class="d-flex align-items-center mb-3">
+              <div class="flex-shrink-0">
+                <div class="theme-bg-primary p-3 rounded-circle">
+                  <i class="bi bi-unlock lh-1 fs-4"></i>
+                </div>
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <span class="fs-4 fw-bold">Sign in</span>
+                <p class="font-medium mb-0 theme-text-accent-one">
+                  Sign in and Get lots of Cashback Rewards and Discount
+                </p>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="password" class="form-label">
-                <strong>
-                  <span class="text-danger">*</span> Password:
-                </strong>
-              </label>
-              <input type="password" class="form-control" id="password" name="password">
+            <div class="col-12">
+              <form class="needs-validation" novalidate>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="email"
+                         placeholder="Email">
+                  <label for="email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control" id="password"
+                         placeholder="Password">
+                  <label for="password">Password</label>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="remember-me">
+                  <label class="form-check-label font-small" for="remember-me">
+                    Remember Me
+                  </label>
+                </div>
+                <div class="mb-3">
+                  <button type="submit" class="btn btn-primary btn-book px-5 min-h58">
+                    Login
+                  </button>
+                  <span class="font-medium">
+                    <span class="mx-3 text-uppercase">or</span>
+                    <a routerLink="/sign-up" title="Create New Account">Create New Account</a>
+                  </span>
+                </div>
+              </form>
             </div>
-            <button type="submit" class="btn btn-primary">Sign In</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>

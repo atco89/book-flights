@@ -94,3 +94,5 @@ rasa run actions
 rasa run actions
 rasa run actions
 exit
+rasa run --enable-api --cors "*" --port 5010
+exit

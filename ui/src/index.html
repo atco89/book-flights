@@ -2,36 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Book Flight</title>
-    <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Flight World</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
   </head>
   <body>
-<!--    <script>-->
-<!--      !(function () {-->
-<!--        let e = document.createElement("script"),-->
-<!--          t = document.head || document.getElementsByTagName("head")[0];-->
-<!--        (e.src =-->
-<!--          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),-->
-<!--          (e.async = !0),-->
-<!--          (e.onload = () => {-->
-<!--            // noinspection JSUnresolvedVariable-->
-<!--            window.WebChat.default(-->
-<!--              {-->
-<!--                initPayload: '/greet',-->
-<!--                socketUrl: "http://localhost:5010",-->
-<!--                title: 'Book Flight Virtual Assistant',-->
-<!--                customData: {language: "en"},-->
-<!--                showMessageDate: true,-->
-<!--              },-->
-<!--              null-->
-<!--            );-->
-<!--          }),-->
-<!--          t.insertBefore(e, t.firstChild);-->
-<!--        window.localStorage.clear();-->
-<!--      })();-->
-<!--    </script>-->
-    <app-root></app-root>
+  <script>
+    !(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+        (e.async = !0),
+        (e.onload = () => {
+          // noinspection JSUnresolvedVariable
+          window.WebChat.default(
+            {
+              initPayload: '/greet',
+              socketUrl: "http://localhost:5010",
+              title: 'Book Flight Virtual Assistant',
+              customData: {language: "en"},
+              showMessageDate: true,
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+      window.localStorage.clear();
+    })();
+  </script>
+    <div class="pagewrap modify-search">
+      <app-root></app-root>
+    </div>
   </body>
 </html>

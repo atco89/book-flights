@@ -2,10 +2,14 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {SignUpComponent} from "./sign-up/sign-up.component";
 import {SignInComponent} from "./sign-in/sign-in.component";
+import {MainComponentComponent} from "./main-component/main-component.component";
+import {AccountActivationComponent} from "./account-activation/account-activation.component";
 
 const routes: Routes = [
   {path: "sign-up", component: SignUpComponent},
   {path: "sign-in", component: SignInComponent},
+  {path: "", component: MainComponentComponent},
+  {path: "account-activation", component: AccountActivationComponent},
 ];
 
 @NgModule({

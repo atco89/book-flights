@@ -98,6 +98,7 @@ class User extends AuthModel implements MustVerifyEmail
      */
     public function getEmailForVerification(): void
     {
+        return;
     }
 
     /**
