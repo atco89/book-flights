@@ -11,6 +11,8 @@ import {MainComponentComponent} from './main-component/main-component.component'
 import { AccountActivationComponent } from './account-activation/account-activation.component';
 import { FlightDetailsComponent } from './flight-details/flight-details.component';
 import { BookConfirmedComponent } from './book-confirmed/book-confirmed.component';
+import { BookingsComponent } from './bookings/bookings.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BookConfirmedComponent } from './book-confirmed/book-confirmed.componen
     MainComponentComponent,
     AccountActivationComponent,
     FlightDetailsComponent,
-    BookConfirmedComponent
+    BookConfirmedComponent,
+    BookingsComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,

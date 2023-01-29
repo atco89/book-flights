@@ -7,4 +7,6 @@ export interface UserFlight {
   user: User,
   ticket: Ticket,
   flight_status: FlightStatus,
+  rate: number | null,
+  comment: string | null,
 }

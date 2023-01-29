@@ -6,7 +6,7 @@
         "edit": true
     },
     {
-        "name": "Done",
+        "name": "Completed",
         "finished": true,
         "review": true,
         "edit": false

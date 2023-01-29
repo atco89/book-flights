@@ -1,0 +1,141 @@
+<div class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md-10" id="profile">
+      <!-- profile details section -->
+      <!-- profile information section -->
+      <div class="theme-box-shadow theme-border-radius theme-bg-white mb-3">
+        <div class="row g-0">
+          <div class="col-12 col-md-12">
+            <div
+              class="d-flex justify-content-between align-items-center border-bottom p-3">
+              <div class="mb-0">
+                <span class="d-flex fw-bold">Profile</span>
+                <span class="theme-text-accent-two font-small">
+                  Basic info, for a faster booking experience
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- information section -->
+        <div class="row g-0 px-3 ">
+          <div class="col-12 border-bottom py-3">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <span class="font-medium text-uppercase theme-text-accent-two">
+                  Name
+                </span>
+              </div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" formControlName="name" value="{{ user.name }}" ngModel/>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 border-bottom py-3">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <span class="font-medium text-uppercase theme-text-accent-two">
+                  Surname
+                </span>
+              </div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" formControlName="surname" value="{{ user.surname }}" ngModel/>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 border-bottom py-3">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <span class="font-medium text-uppercase theme-text-accent-two">
+                  Birth date
+                </span>
+              </div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" formControlName="birth_date"
+                       value="{{ user.birth_date | date: 'dd.MM.YYYY' }}" ngModel/>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 py-3">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <span class="font-medium text-uppercase theme-text-accent-two">
+                  Passport number
+                </span>
+              </div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" formControlName="passport_number"
+                       value="{{ user.passport_number }}" ngModel/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- login information section -->
+      <div class="theme-box-shadow theme-border-radius theme-bg-white mb-3" id="details">
+        <div class="row g-0">
+          <div class="col-12 col-md-12">
+            <div
+              class="d-flex justify-content-between align-items-center border-bottom p-3">
+              <div class="mb-0">
+                <span class="d-flex fw-bold">Login Details</span>
+                <span class="theme-text-accent-two font-small">
+                  Manage your email address mobile number and password
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- login details -->
+        <div class="row g-0 px-3 ">
+          <div class="col-12 border-bottom py-3">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <span class="font-medium text-uppercase theme-text-accent-two">
+                  Email
+                </span>
+              </div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" formControlName="phone"
+                       value="{{ user.email }}" ngModel/>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 border-bottom py-3">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <span class="font-medium text-uppercase theme-text-accent-two">
+                  Phone number
+                </span>
+              </div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" formControlName="phone"
+                       value="{{ user.phone }}" ngModel/>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 py-3">
+            <div class="row">
+              <div class="col-12 col-md-3">
+                <span class="font-medium text-uppercase theme-text-accent-two">
+                  Password
+                </span>
+              </div>
+              <div class="col-12 col-md-9">
+                <input type="text" class="form-control" formControlName="phone"
+                       value="{{ user.email }}" ngModel/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <a class="btn btn-primary" type="submit">
+        Save
+      </a>
+    </div>
+  </div>
+</div>

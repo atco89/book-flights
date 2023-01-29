@@ -25,6 +25,7 @@ class FetchAllBookedFlightsController extends Controller
     public function __invoke(Request $request): JsonResponse
     {
         return response()->json($this->userFlightService->findAll([
+            'user',
             'ticket.flight.airline.country',
             'ticket.flight.aircraft',
             'ticket.flight.departureAirport.city.country',

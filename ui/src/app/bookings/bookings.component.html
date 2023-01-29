@@ -1,0 +1,341 @@
+<div class="theme-bg-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-2 mb-4 mb-md-0">
+        <div class="d-flex flex-column theme-border-radius theme-bg-white theme-box-shadow">
+          <a class="border-bottom p-3 theme-text-accent-one" href="/bookings#upcoming">
+            <i class="img-icon icon-upcoming me-2 align-middle"></i>Upcoming
+          </a>
+          <a class="border-bottom p-3 theme-text-accent-one" href="/bookings#completed">
+            <i class="img-icon icon-complete me-2 align-middle"></i>Completed
+          </a>
+          <a class="border-bottom p-3 theme-text-accent-one" href="/bookings#cancelled">
+            <i class="img-icon icon-fail me-2 align-middle"></i>Cancelled
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-md-10">
+        <!-- upcoming -->
+        <div class="theme-border-radius theme-bg-white mb-3" id="upcoming">
+          <div class="row g-0">
+            <div class="col-12 col-md-12">
+              <div class="d-flex justify-content-between align-items-center border-bottom p-3 align-self-center">
+                <div class="mb-0">
+                  <span class="d-flex">
+                      <i class="img-icon icon-upcoming me-2 align-middle"></i>
+                      <span class="d-flex flex-column">
+                          <span class="fw-bold">Upcoming Bookings</span>
+                          <span class="d-flex font-small">Your complete booking ( {{ upcomingFlights.length }} )</span>
+                      </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div *ngFor="let upcoming of upcomingFlights; let i = index" class="row g-0 px-3">
+            <div class="col-12">
+              <div class="theme-box-shadow theme-border-radius theme-bg-white my-3">
+                <div class="row g-0">
+                  <div class="col-12 col-md-12">
+                    <div class="row g-0 align-items-center border-bottom p-3 align-self-center">
+                      <div class="col-12 col-md-7 mb-3 mb-md-0">
+                        <span class="fw-bold">
+                          <span class="text-uppercase">
+                            {{ upcoming.ticket.flight?.departure_airport?.city?.name }}
+                          </span>
+                          <i class="bi bi-arrow-right mx-2"></i>
+                          <span class="text-uppercase">
+                            {{ upcoming.ticket.flight?.arrival_airport?.city?.name }}
+                          </span>
+                        </span>
+                        <ul class="d-flex">
+                          <li class="font-small fw-bold">Upcoming</li>
+                          <li class="font-small">
+                            <i class="bi bi-circle-fill font-extra-small mx-2"></i> One Way Flight
+                          </li>
+                          <li class="font-small theme-text-accent-two">
+                            <i class="bi bi-circle-fill font-extra-small mx-2"></i>Booking ID - {{ upcoming.uid }}
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-12 col-md-5 text-md-end">
+                        <a [routerLink]="['/flight/', upcoming.ticket.uid, 'booked']" class="btn btn-sm btn-primary">
+                          <span class="text-uppercase">View</span>
+                        </a>
+                        <button (click)="completeFlight(upcoming.ticket.uid)" class="btn btn-sm btn-success ms-1">
+                          <span class="text-uppercase">Complete</span>
+                        </button>
+                        <button (click)="cancelFlight(upcoming.ticket.uid)" class="btn btn-sm btn-danger ms-1">
+                          <span class="text-uppercase">Cancel</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-0">
+                  <div class="col-12 p-3">
+                    <ul class="row">
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                    <span class="d-flex flex-column font-medium theme-text-accent-two">
+                        <span class="fw-bold text-uppercase">From</span>
+                        <span class="theme-text-accent-one">
+                            <span class="theme-text-accent-two">
+                              {{ upcoming.ticket.flight?.dep_time }}
+                            </span>
+                        </span>
+                        <span>{{ upcoming.ticket.flight?.departure_airport?.name }}</span>
+                    </span>
+                      </li>
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                    <span class="d-flex flex-column font-medium theme-text-accent-two">
+                        <span class="fw-bold text-uppercase">To</span>
+                        <span class="theme-text-accent-one">
+                            <span class="theme-text-accent-two">
+                              {{ upcoming.ticket.flight?.arr_time }}
+                            </span>
+                        </span>
+                        <span>{{ upcoming.ticket.flight?.arrival_airport?.name }}</span>
+                    </span>
+                      </li>
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0">
+                            <img alt="{{ upcoming.ticket.flight?.airline?.image_path }}"
+                                 src="http://localhost:8888/images/logo/{{ upcoming.ticket.flight?.airline?.image_path }}"
+                                 style="width: 32px; height: 32px;">
+                          </div>
+                          <div class="flex-grow-1 ms-3 font-medium mb-2">
+                            <span class="fw-bold">
+                              {{ upcoming.ticket.flight?.airline?.name }}
+                            </span>
+                            <span class="d-flex theme-text-accent-two">6E - 315</span>
+                          </div>
+                        </div>
+                        <span class="font-medium">
+                          <i class="bi bi-person-fill me-2"></i> {{ upcoming.user.name }} {{ upcoming.user.surname }}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- completed -->
+        <div class="theme-border-radius theme-bg-white mb-3" id="completed">
+          <div class="row g-0">
+            <div class="col-12 col-md-12">
+              <div class="d-flex justify-content-between align-items-center border-bottom p-3 align-self-center">
+                <div class="mb-0">
+                  <span class="d-flex">
+                      <i class="img-icon icon-upcoming me-2 align-middle"></i>
+                      <span class="d-flex flex-column">
+                          <span class="fw-bold">Completed Bookings</span>
+                          <span class="d-flex font-small">
+                            Your completed booking ( {{ completedFlights.length }} )
+                          </span>
+                      </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- complete booking -->
+          <div *ngFor="let completed of completedFlights; let i = index" class="row g-0 px-3">
+            <div class="col-12">
+              <div class="theme-box-shadow theme-border-radius theme-bg-white my-3">
+                <div class="row g-0">
+                  <div class="col-12 col-md-12">
+                    <div class="row g-0 align-items-center border-bottom p-3 align-self-center">
+                      <div class="col-12 col-md-7 mb-3 mb-md-0">
+                        <span class="fw-bold">
+                          <span class="text-uppercase">
+                            {{ completed.ticket.flight?.departure_airport?.city?.name }}
+                          </span>
+                          <i class="bi bi-arrow-right mx-2"></i>
+                          <span class="text-uppercase">
+                            {{ completed.ticket.flight?.arrival_airport?.city?.name }}
+                          </span>
+                        </span>
+                        <ul class="d-flex">
+                          <li class="font-small fw-bold">Cancelled</li>
+                          <li class="font-small">
+                            <i class="bi bi-circle-fill font-extra-small mx-2"></i> One Way Flight
+                          </li>
+                          <li class="font-small theme-text-accent-two">
+                            <i class="bi bi-circle-fill font-extra-small mx-2"></i>Booking ID - {{ completed.uid }}
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-12 col-md-5 text-md-end">
+                        <a [routerLink]="['/flight/', completed.ticket.uid, 'booked']" class="btn btn-sm btn-primary">
+                          <span class="text-uppercase">View</span>
+                        </a>
+                        <ng-template [ngIf]="completed.comment === null">
+                          <button class="btn btn-sm btn-success ms-1">
+                            <span (click)="review(completed.ticket.uid)" class="text-uppercase">Review</span>
+                          </button>
+                        </ng-template>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-0">
+                  <div class="col-12 p-3">
+                    <ul class="row">
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                    <span class="d-flex flex-column font-medium theme-text-accent-two">
+                        <span class="fw-bold text-uppercase">From</span>
+                        <span class="theme-text-accent-one">
+                            <span class="theme-text-accent-two">
+                              {{ completed.ticket.flight?.dep_time }}
+                            </span>
+                        </span>
+                        <span>{{ completed.ticket.flight?.departure_airport?.name }}</span>
+                    </span>
+                      </li>
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                    <span class="d-flex flex-column font-medium theme-text-accent-two">
+                        <span class="fw-bold text-uppercase">To</span>
+                        <span class="theme-text-accent-one">
+                            <span class="theme-text-accent-two">
+                              {{ completed.ticket.flight?.arr_time }}
+                            </span>
+                        </span>
+                        <span>{{ completed.ticket.flight?.arrival_airport?.name }}</span>
+                    </span>
+                      </li>
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0">
+                            <img alt="{{ completed.ticket.flight?.airline?.image_path }}"
+                                 src="http://localhost:8888/images/logo/{{ completed.ticket.flight?.airline?.image_path }}"
+                                 style="width: 32px; height: 32px;">
+                          </div>
+                          <div class="flex-grow-1 ms-3 font-medium mb-2">
+                            <span class="fw-bold">
+                              {{ completed.ticket.flight?.airline?.name }}
+                            </span>
+                            <span class="d-flex theme-text-accent-two">6E - 315</span>
+                          </div>
+                        </div>
+                        <span class="font-medium">
+                          <i class="bi bi-person-fill me-2"></i> {{ completed.user.name }} {{ completed.user.surname }}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- cancelled -->
+        <div class="theme-border-radius theme-bg-white mb-3" id="cancelled">
+          <div class="row g-0">
+            <div class="col-12 col-md-12">
+              <div class="d-flex justify-content-between align-items-center border-bottom p-3 align-self-center">
+                <div class="mb-0">
+                  <span class="d-flex">
+                      <i class="img-icon icon-upcoming me-2 align-middle"></i>
+                      <span class="d-flex flex-column">
+                          <span class="fw-bold">Cancelled Bookings</span>
+                          <span class="d-flex font-small">
+                            Your cancelled booking ( {{ cancelledFlights.length }} )
+                          </span>
+                      </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- complete booking -->
+          <div *ngFor="let cancelled of cancelledFlights; let i = index" class="row g-0 px-3">
+            <div class="col-12">
+              <div class="theme-box-shadow theme-border-radius theme-bg-white my-3">
+                <div class="row g-0">
+                  <div class="col-12 col-md-12">
+                    <div class="row g-0 align-items-center border-bottom p-3 align-self-center">
+                      <div class="col-12 col-md-7 mb-3 mb-md-0">
+                        <span class="fw-bold">
+                          <span class="text-uppercase">
+                            {{ cancelled.ticket.flight?.departure_airport?.city?.name }}
+                          </span>
+                          <i class="bi bi-arrow-right mx-2"></i>
+                          <span class="text-uppercase">
+                            {{ cancelled.ticket.flight?.arrival_airport?.city?.name }}
+                          </span>
+                        </span>
+                        <ul class="d-flex">
+                          <li class="font-small fw-bold">Cancelled</li>
+                          <li class="font-small">
+                            <i class="bi bi-circle-fill font-extra-small mx-2"></i> One Way Flight
+                          </li>
+                          <li class="font-small theme-text-accent-two">
+                            <i class="bi bi-circle-fill font-extra-small mx-2"></i>Booking ID - {{ cancelled.uid }}
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-12 col-md-5 text-md-end">
+                        <a [routerLink]="['/flight/', cancelled.ticket.uid, 'booked']" class="btn btn-sm btn-primary">
+                          <span class="text-uppercase">View</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-0">
+                  <div class="col-12 p-3">
+                    <ul class="row">
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                    <span class="d-flex flex-column font-medium theme-text-accent-two">
+                        <span class="fw-bold text-uppercase">From</span>
+                        <span class="theme-text-accent-one">
+                            <span class="theme-text-accent-two">
+                              {{ cancelled.ticket.flight?.dep_time }}
+                            </span>
+                        </span>
+                        <span>{{ cancelled.ticket.flight?.departure_airport?.name }}</span>
+                    </span>
+                      </li>
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                    <span class="d-flex flex-column font-medium theme-text-accent-two">
+                        <span class="fw-bold text-uppercase">To</span>
+                        <span class="theme-text-accent-one">
+                            <span class="theme-text-accent-two">
+                              {{ cancelled.ticket.flight?.arr_time }}
+                            </span>
+                        </span>
+                        <span>{{ cancelled.ticket.flight?.arrival_airport?.name }}</span>
+                    </span>
+                      </li>
+                      <li class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="d-flex align-items-center">
+                          <div class="flex-shrink-0">
+                            <img alt="{{ cancelled.ticket.flight?.airline?.image_path }}"
+                                 src="http://localhost:8888/images/logo/{{ cancelled.ticket.flight?.airline?.image_path }}"
+                                 style="width: 32px; height: 32px;">
+                          </div>
+                          <div class="flex-grow-1 ms-3 font-medium mb-2">
+                            <span class="fw-bold">
+                              {{ cancelled.ticket.flight?.airline?.name }}
+                            </span>
+                            <span class="d-flex theme-text-accent-two">6E - 315</span>
+                          </div>
+                        </div>
+                        <span class="font-medium">
+                          <i class="bi bi-person-fill me-2"></i> {{ cancelled.user.name }} {{ cancelled.user.surname }}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
