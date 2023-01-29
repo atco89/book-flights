@@ -44,6 +44,3 @@ seed:
 
 chatbot:
 	docker exec -it rasa bash
-
-docker-login:
-	docker login --username=swiftsoftserbia

@@ -1,38 +1,40 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <base href="/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Flight World</title>
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <!--suppress JSUnresolvedLibraryURL -->
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.min.css" rel="stylesheet"
+          type="text/css">
   </head>
   <body>
-  <script>
-    !(function () {
-      let e = document.createElement("script"),
-        t = document.head || document.getElementsByTagName("head")[0];
-      (e.src =
-        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
-        (e.async = !0),
-        (e.onload = () => {
-          // noinspection JSUnresolvedVariable
-          window.WebChat.default(
-            {
-              initPayload: '/greet',
-              socketUrl: "http://localhost:5010",
-              title: 'Book Flight Virtual Assistant',
-              customData: {language: "en"},
-              showMessageDate: true,
-            },
-            null
-          );
-        }),
-        t.insertBefore(e, t.firstChild);
-      window.localStorage.clear();
-    })();
-  </script>
-    <div class="pagewrap modify-search">
-      <app-root></app-root>
-    </div>
+    <script>
+      !(function () {
+        let e = document.createElement("script"),
+          t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+          (e.async = !0),
+          (e.onload = () => {
+            // noinspection JSUnresolvedVariable
+            window.WebChat.default(
+              {
+                initPayload: '/greet',
+                socketUrl: "http://localhost:5010",
+                title: 'Book Flight Virtual Assistant',
+                customData: {language: "en"},
+                showMessageDate: true,
+              },
+              null
+            );
+          }),
+          t.insertBefore(e, t.firstChild);
+        window.localStorage.setItem('chat_session', '');
+      })();
+    </script>
+    <app-root></app-root>
   </body>
 </html>

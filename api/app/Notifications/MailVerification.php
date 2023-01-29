@@ -34,9 +34,9 @@ class MailVerification extends Notification
     public function toMail($notifiable): MailMessage
     {
         return (new MailMessage)
-            ->subject('Book Flights email verification')
+            ->subject('Flight World Email Verification')
             ->greeting('Hi ' . $notifiable->name . ', ')
-            ->line('you\'re almost ready to start enjoying Book Flights')
+            ->line('you\'re almost ready to start enjoying Flight World.')
             ->line('Simply click the big button bellow to verify your email address.')
             ->action('Verify email address', url(route('account.activation', [
                 'activationCode' => $notifiable->verification_code

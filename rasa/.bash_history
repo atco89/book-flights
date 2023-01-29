@@ -96,3 +96,13 @@ rasa run actions
 exit
 rasa run --enable-api --cors "*" --port 5010
 exit
+rasa run --enable-api --cors "*" --port 5010
+exit
+rasa train
+rasa run --enable-api --cors "*" --port 5010
+clear
+exit
+rasa train
+chmod -R 0777 .
+rasa run actions
+exit

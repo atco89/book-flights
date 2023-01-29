@@ -18,25 +18,31 @@
               </div>
             </div>
             <div class="col-12">
-              <form class="needs-validation" novalidate>
+              <form (ngSubmit)="onSubmit()" [formGroup]="form" class="needs-validation" novalidate>
                 <div class="form-floating mb-3">
-                  <input type="email" class="form-control" id="email"
-                         placeholder="Email">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['email'].errors}"
+                         class="form-control" formControlName="email" id="email"
+                         ngModel
+                         placeholder="Email"
+                         type="email">
                   <label for="email">Email</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <input type="password" class="form-control" id="password"
-                         placeholder="Password">
+                  <input [ngClass]="{'is-invalid': submitted && form.controls['password'].errors}"
+                         class="form-control" formControlName="password" id="password"
+                         ngModel
+                         placeholder="Password"
+                         type="password">
                   <label for="password">Password</label>
                 </div>
                 <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="remember-me">
+                  <input class="form-check-input" id="remember-me" type="checkbox">
                   <label class="form-check-label font-small" for="remember-me">
                     Remember Me
                   </label>
                 </div>
                 <div class="mb-3">
-                  <button type="submit" class="btn btn-primary btn-book px-5 min-h58">
+                  <button class="btn btn-primary btn-book px-5 min-h58" type="submit">
                     Login
                   </button>
                   <span class="font-medium">

@@ -24,7 +24,7 @@ export class SignUpComponent implements OnInit {
     this.form = this.formBuilder.group({
       'name': ['', [Validators.required, Validators.maxLength(255)]],
       'surname': ['', [Validators.required, Validators.maxLength(255)]],
-      'birth_date': ['', [Validators.required, Validators.maxLength(255)]],
+      'birth_date': ['', [Validators.required]],
       'passport_number': ['', [Validators.required, Validators.maxLength(255)]],
       'phone': ['', [Validators.required, Validators.maxLength(255)]],
       'email': ['', [Validators.required, Validators.maxLength(255), Validators.email]],
@@ -41,7 +41,7 @@ export class SignUpComponent implements OnInit {
     this.http.post<User>('http://localhost:8888/api/sign-up', this.form.value).subscribe(
       (user: User) => Swal.fire('You have successfully created an Flight World account. ' +
         'Please check your email in order to activate your account.', '', 'success'),
-      error => Swal.fire('Some error occur, please try again!', '', 'error'),
+      (error: Error) => Swal.fire('Some error occur, please try again!', '', 'error'),
       () => this.form.reset(),
     );
   }

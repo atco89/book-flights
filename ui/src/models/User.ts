@@ -1,9 +1,10 @@
 export interface User {
-  name: string|null,
-  surname: string|null,
-  birth_date: Date|null,
-  passport_number: string|null,
-  phone: string|null,
-  email: string|null,
-  password: string|null,
+  uid: string,
+  name: string,
+  surname: string,
+  birth_date: Date,
+  passport_number: string,
+  phone: string,
+  email: string,
+  password: string | null,
 }

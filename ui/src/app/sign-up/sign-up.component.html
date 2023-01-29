@@ -18,61 +18,61 @@
               </div>
             </div>
             <div class="col-12">
-              <form [formGroup]="form" (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
+              <form (ngSubmit)="onSubmit()" [formGroup]="form" class="needs-validation" novalidate>
                 <div class="form-floating mb-3">
                   <input [ngClass]="{'is-invalid': submitted && form.controls['name'].errors}"
                          class="form-control" formControlName="name" id="name"
+                         ngModel
                          placeholder="Name"
-                         type="text"
-                         ngModel>
+                         type="text">
                   <label for="name">Name</label>
                 </div>
                 <div class="form-floating mb-3">
                   <input [ngClass]="{'is-invalid': submitted && form.controls['surname'].errors}"
                          class="form-control" formControlName="surname" id="surname"
+                         ngModel
                          placeholder="Surname"
-                         type="text"
-                         ngModel>
+                         type="text">
                   <label for="surname">Surname</label>
                 </div>
                 <div class="form-floating mb-3">
                   <input [ngClass]="{'is-invalid': submitted && form.controls['birth_date'].errors}"
                          class="form-control" formControlName="birth_date" id="birth-date"
+                         ngModel
                          placeholder="Birth date"
-                         type="text"
-                         ngModel>
+                         type="text">
                   <label for="birth-date">Birth date</label>
                 </div>
                 <div class="form-floating mb-3">
                   <input [ngClass]="{'is-invalid': submitted && form.controls['passport_number'].errors}"
                          class="form-control" formControlName="passport_number" id="passport-number"
+                         ngModel
                          placeholder="Passport number"
-                         type="text"
-                         ngModel>
+                         type="text">
                   <label for="passport-number">Passport number</label>
                 </div>
                 <div class="form-floating mb-3">
                   <input [ngClass]="{'is-invalid': submitted && form.controls['phone'].errors}"
                          class="form-control" formControlName="phone" id="phone-number"
+                         ngModel
                          placeholder="Phone number"
-                         type="text"
-                         ngModel>
+                         type="text">
                   <label for="phone-number">Phone number</label>
                 </div>
                 <div class="form-floating mb-3">
                   <input [ngClass]="{'is-invalid': submitted && form.controls['email'].errors}"
                          class="form-control" formControlName="email" id="email"
+                         ngModel
                          placeholder="Email"
-                         type="email"
-                         ngModel>
+                         type="email">
                   <label for="email">Email</label>
                 </div>
                 <div class="form-floating mb-3">
                   <input [ngClass]="{'is-invalid': submitted && form.controls['password'].errors}"
                          class="form-control" formControlName="password" id="password"
+                         ngModel
                          placeholder="Password"
-                         type="password"
-                         ngModel>
+                         type="password">
                   <label for="password">Password</label>
                 </div>
                 <div class="mb-3">

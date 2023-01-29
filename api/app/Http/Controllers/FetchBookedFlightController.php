@@ -27,6 +27,7 @@ class FetchBookedFlightController extends Controller
     public function __invoke(Request $request): JsonResponse
     {
         return response()->json($this->userFlightService->findByTicketId($request->flightTicketUid, [
+            'user',
             'ticket.flight.airline.country',
             'ticket.flight.aircraft',
             'ticket.flight.departureAirport.city.country',

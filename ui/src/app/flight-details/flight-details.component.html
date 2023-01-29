@@ -1,0 +1,120 @@
+<div class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md-9" data-aos="fade-up" data-aos-delay="200">
+      <div class="d-flex justify-content-between align-items-start mb-3">
+        <div class="fw-bold">Flight Details</div>
+        <div>
+            <span class="font-small">
+              <a routerLink="/">
+                <i class="bi bi-arrow-left mx-2"></i>Back To Search
+              </a>
+            </span>
+        </div>
+      </div>
+      <!-- flight details section -->
+      <div class="theme-border-radius bg-light mb-3">
+        <div class="row border-bottom py-2 m-auto">
+          <div class="col-8">
+                <span class="fw-bold">
+                  <span class="text-uppercase">Depart - </span>
+                  <span>{{flight.departure_airport.code}} {{flight.departure_airport.name}}</span>
+                </span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="px-3">
+              <ul class="row py-3">
+                <li class="col-12 pb-3">
+                  <div class="float-start">
+                    <img alt="{{flight.airline.image_path}}"
+                         src="http://localhost:8888/images/logo/{{flight.airline.image_path}}"
+                         style="width: 32px; height: 32px;">
+                  </div>
+                  <div class="float-start ms-2">
+                    <div class="font-medium">{{flight.airline.name}}</div>
+                    <div class="font-small">{{flight.airline.code}}</div>
+                  </div>
+                  <div class="float-start rounded theme-bg-secondary theme-text-white font-medium px-2 ms-5">
+                    Class - SS
+                  </div>
+                  <div class="font-medium float-start mx-5">Economy</div>
+                  <div class="font-medium float-start mx-5">Refundable</div>
+                </li>
+                <li class="col-12 col-md-6 col-lg-3 pb-3">
+                  <div class="font-medium fw-bold text-uppercase">
+                    {{flight.departure_airport.name}}
+                  </div>
+                  <div class="font-medium">
+                    {{flight.departure_airport.city.name}}, {{flight.departure_airport.city.country.name}}
+                  </div>
+                  <div class="font-medium">
+                    {{flight.dep_time}}
+                  </div>
+                </li>
+                <li class="col-12 col-md-6 col-lg-3 pb-3">
+                  <div class="float-start">
+                    <i class="bi bi-clock pe-2 fs-6"></i>
+                  </div>
+                  <div class="float-start">
+                    <span class="font-medium d-block">{{flight.duration}} minutes</span>
+                    <span class="font-small d-block">Non Stop</span>
+                    <span class="font-small d-block">
+                          {{flight.aircraft.manufacturer}}: {{flight.aircraft.model}}
+                        </span>
+                  </div>
+                </li>
+                <li class="col-12 col-md-6 col-lg-3 pb-3">
+                  <div class="font-medium fw-bold text-uppercase">
+                    {{flight.arrival_airport.name}}
+                  </div>
+                  <div class="font-medium">
+                    {{flight.arrival_airport.city.name}}, {{flight.arrival_airport.city.country.name}}
+                  </div>
+                  <div class="font-medium">
+                    {{flight.arr_time}}
+                  </div>
+                </li>
+                <li class="col-12 col-md-6 col-lg-3 pb-3">
+                      <span class="font-small text-uppercase fw-bold">
+                        <i class="bi bi-briefcase me-2 fs-6"></i> Baggage
+                      </span>
+                  <span class="font-small d-block">CHECK-IN: 15kg</span>
+                  <span class="font-small d-block">CABIN: 7kg</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-3" data-aos="fade-down" data-aos-delay="300">
+      <div class="fw-bold mb-3">Fare Details</div>
+      <div class="row">
+        <div class="col-12 mb-3">
+          <div class="theme-border-radius bg-light">
+            <ul>
+              <li class="p-3 font-medium">
+                <div class="d-flex justify-content-between">
+                  <span class="fs-6 fw-bold">Grand Total</span>
+                  <span class="fs-6">
+                        <i class="bi bi-currency-dollar"></i>
+                        <span class="fw-bold">{{flight.tickets.at(0)?.price}}</span>
+                      </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- button section -->
+  <div class="row">
+    <div class="col-12">
+      <a (click)="book(flight.tickets.at(0)?.uid)" class="btn btn-primary" type="submit">
+        Book now for $ {{flight.tickets.at(0)?.price}}
+      </a>
+    </div>
+  </div>
+</div>

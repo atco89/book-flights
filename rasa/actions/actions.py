@@ -35,8 +35,8 @@ class ActionSearchFlights(Action):
                 "image_url": "http://localhost:8888/images/logo/" + flight['airline']['image_path'],
                 "buttons": [
                     {
-                        "title": "Book",
-                        "url": flight['uid'],
+                        "title": "Book now",
+                        "url": "http://localhost:4200/flight/" + flight['uid'],
                         "type": "web_url"
                     }
                 ]

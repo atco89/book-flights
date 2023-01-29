@@ -9,6 +9,8 @@ import {HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MainComponentComponent} from './main-component/main-component.component';
 import { AccountActivationComponent } from './account-activation/account-activation.component';
+import { FlightDetailsComponent } from './flight-details/flight-details.component';
+import { BookConfirmedComponent } from './book-confirmed/book-confirmed.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AccountActivationComponent } from './account-activation/account-activat
     SignUpComponent,
     SignInComponent,
     MainComponentComponent,
-    AccountActivationComponent
+    AccountActivationComponent,
+    FlightDetailsComponent,
+    BookConfirmedComponent
   ],
   imports: [
     BrowserModule,

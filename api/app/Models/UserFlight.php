@@ -44,8 +44,8 @@ class UserFlight extends BaseModel
      * @var string[]
      */
     protected $casts = [
-        //'flight_ticket_id' => FlightTicketCast::class,
-        //'flight_status_id' => FlightStatusCast::class,
+        'flight_ticket_id' => FlightTicketCast::class,
+        'flight_status_id' => FlightStatusCast::class,
     ];
 
     /**
